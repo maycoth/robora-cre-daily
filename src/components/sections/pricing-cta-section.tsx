@@ -7,13 +7,13 @@ const features = [
   "Tens of millions in FDIC coverage",
   "Unified dashboard for all properties",
   "No change to existing banking",
-  "Free cash analytics tools",
+  "Cash analytics tools",
   "Unlimited transfers",
 ];
 
 export default function PricingCTASection() {
   return (
-    <section id="contact" className="bg-white py-16 md:py-24">
+    <section id="pricing" className="bg-white py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-10 max-w-[1280px]">
         <div className="relative overflow-hidden rounded-[24px] md:rounded-[32px] bg-[#003D7A] text-white shadow-xl">
           <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">

@@ -1,6 +1,5 @@
 import NavigationHeader from "@/components/sections/navigation-header";
 import HeroSection from "@/components/sections/hero-section";
-import TrustedByCarousel from "@/components/sections/trusted-by-carousel";
 import CalculatorSection from "@/components/sections/calculator-section";
 import AccountTypesSection from "@/components/sections/account-types-section";
 import DashboardSection from "@/components/sections/dashboard-section";
@@ -14,7 +13,6 @@ export default function Home() {
     <main className="min-h-screen">
       <NavigationHeader />
       <HeroSection />
-      <TrustedByCarousel />
       <CalculatorSection />
       <AccountTypesSection />
       <DashboardSection />

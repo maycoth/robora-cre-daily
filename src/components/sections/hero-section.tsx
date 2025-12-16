@@ -7,7 +7,7 @@ import { Building2, Shield, TrendingUp } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-gradient-to-br from-[#003D7A] via-[#0A5BA8] to-[#003D7A] text-white">
+    <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#003D7A] via-[#0A5BA8] to-[#003D7A] text-white">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -left-20 top-1/4 w-96 h-96 bg-[#FFC700]/10 rounded-full blur-3xl" />
         <div className="absolute -right-20 bottom-1/4 w-96 h-96 bg-[#2E7FD6]/20 rounded-full blur-3xl" />
@@ -44,21 +44,12 @@ export default function HeroSection() {
           <span className="text-[#FFC700]">Into Earning Assets</span>
         </h1>
 
-        <p className="mb-8 text-lg md:text-xl text-white/85 max-w-2xl mx-auto leading-relaxed">
+        <p className="mb-12 text-lg md:text-xl text-white/85 max-w-2xl mx-auto leading-relaxed">
           Your security deposits, operating accounts, and reserves could be earning{" "}
           <span className="font-semibold text-[#FFC700]">3.11% APY</span> instead of sitting dormant.
         </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 w-full sm:w-auto">
-              <Link
-                href="https://roborafinancial.com/book-a-demo"
-                className="group flex items-center justify-center w-full sm:w-auto px-8 py-4 text-base font-semibold text-[#003D7A] bg-[#FFC700] rounded-lg hover:bg-[#FFD740] hover:-translate-y-0.5 shadow-lg shadow-[#FFC700]/25 transition-all duration-300 min-w-[200px]"
-              >
-                Schedule a Demo
-              </Link>
-          </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto mb-12">
           <div className="flex items-center gap-3 px-5 py-3 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
             <Shield className="w-5 h-5 text-[#FFC700] shrink-0" />
             <span className="text-sm text-white/90">Tens of Millions in FDIC Coverage</span>
@@ -71,6 +62,15 @@ export default function HeroSection() {
             <Building2 className="w-5 h-5 text-[#FFC700] shrink-0" />
             <span className="text-sm text-white/90">One Dashboard for All Properties</span>
           </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
+          <Link
+            href="https://roborafinancial.com/book-a-demo"
+            className="group flex items-center justify-center w-full sm:w-auto px-8 py-4 text-base font-semibold text-[#003D7A] bg-[#FFC700] rounded-lg hover:bg-[#FFD740] hover:-translate-y-0.5 shadow-lg shadow-[#FFC700]/25 transition-all duration-300 min-w-[200px]"
+          >
+            Schedule a Demo
+          </Link>
         </div>
       </div>
     </section>
