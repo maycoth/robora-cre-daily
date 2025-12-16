@@ -22,12 +22,12 @@ export default function Footer() {
               <h2 className="text-[28px] md:text-[32px] font-bold leading-[1.2] tracking-tight text-white">
                 Want to give your excess cash a boost?
               </h2>
-              <Link
-                href="#" 
-                className="inline-flex items-center justify-center bg-[#FFC700] text-[#003D7A] font-semibold text-base px-6 py-3 rounded-lg shadow-md hover:bg-[#FFB300] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
-              >
-                Get Started
-              </Link>
+                <Link
+                  href="https://app.roborafinancial.com/signup" 
+                  className="inline-flex items-center justify-center bg-[#FFC700] text-[#003D7A] font-semibold text-base px-6 py-3 rounded-lg shadow-md hover:bg-[#FFB300] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
+                >
+                  Get Started
+                </Link>
             </div>
           </div>
 
