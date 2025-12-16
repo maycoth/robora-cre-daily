@@ -9,9 +9,75 @@ const inter = Inter({
   weight: ["400", "500", "600", "700"],
 });
 
+const siteUrl = "https://roborafinancial.com";
+const siteName = "Robora Financial";
+const siteDescription = "Turn idle cash into earning assets. Robora Financial helps apartment management companies earn up to 3.11% APY on security deposits, operating accounts, and reserves—with tens of millions in FDIC coverage.";
+
 export const metadata: Metadata = {
-  title: "Robora Financial - Unlock the Power of Your Cash",
-  description: "Earn 3.11% APY. Keep your bank. Automate the rest. Robora Financial helps businesses and individuals maximize returns on excess cash.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Robora Financial - Turn Idle Cash Into Earning Assets",
+    template: "%s | Robora Financial",
+  },
+  description: siteDescription,
+  keywords: [
+    "apartment management",
+    "cash management",
+    "FDIC insured",
+    "security deposits",
+    "operating accounts",
+    "reserve funds",
+    "high yield savings",
+    "property management finance",
+    "multifamily finance",
+    "treasury management",
+  ],
+  authors: [{ name: siteName }],
+  creator: siteName,
+  publisher: siteName,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: siteName,
+    title: "Robora Financial - Turn Idle Cash Into Earning Assets",
+    description: siteDescription,
+    // images: [
+    //   {
+    //     url: "/og-image.png",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Robora Financial - Turn Idle Cash Into Earning Assets",
+    //   },
+    // ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Robora Financial - Turn Idle Cash Into Earning Assets",
+    description: siteDescription,
+    // images: ["/og-image.png"],
+    creator: "@roborafinancial",
+  },
+  // icons: {
+  //   icon: "/favicon.ico",
+  //   shortcut: "/favicon-16x16.png",
+  //   apple: "/apple-touch-icon.png",
+  // },
+  // manifest: "/site.webmanifest",
+  alternates: {
+    canonical: siteUrl,
+  },
 };
 
 export default function RootLayout({
