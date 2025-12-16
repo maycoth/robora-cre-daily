@@ -88,7 +88,7 @@ export default function SafetySecuritySection() {
 
             <div className="flex flex-col items-center text-center">
               <div className="flex items-center gap-2 mb-3">
-                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/omb%20bank.png" alt="OMB Bank" className="h-8" />
+                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/Untitled%20Design%20380x133.png" alt="OMB Bank" className="h-8" />
               </div>
               <p className="text-white/60 text-sm">FDIC Member Banking Partner</p>
             </div>
