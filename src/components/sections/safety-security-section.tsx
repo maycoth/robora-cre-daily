@@ -80,22 +80,22 @@ export default function SafetySecuritySection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 border-t border-white/10">
             <div className="flex flex-col items-center text-center">
-              <div className="flex items-center gap-2 mb-3">
-                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/plaid.png" alt="Plaid" className="h-8" />
+              <div className="flex items-center gap-2 mb-3 h-10">
+                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/plaid%20white%20transparent.png" alt="Plaid" className="h-6 w-auto object-contain" />
               </div>
               <p className="text-white/60 text-sm">Secure Account Linking</p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="flex items-center gap-2 mb-3">
-                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/Untitled%20Design%20380x133.png" alt="OMB Bank" className="h-8" />
+              <div className="flex items-center gap-2 mb-3 h-10">
+                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/omb%20white%20transparent.png" alt="OMB Bank" className="h-8 w-auto object-contain" />
               </div>
               <p className="text-white/60 text-sm">FDIC Member Banking Partner</p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="flex items-center gap-2 mb-3">
-                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/alloy.png" alt="Alloy" className="h-8" />
+              <div className="flex items-center gap-2 mb-3 h-10">
+                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/alloy%20white%20transparent.png" alt="Alloy" className="h-6 w-auto object-contain" />
               </div>
               <p className="text-white/60 text-sm">Identity Verification</p>
             </div>
