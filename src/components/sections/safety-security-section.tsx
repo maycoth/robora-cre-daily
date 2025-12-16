@@ -79,38 +79,27 @@ export default function SafetySecuritySection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 border-t border-white/10">
-          <div className="flex flex-col items-center text-center">
-            <div className="flex items-center gap-2 mb-3">
-              <svg className="w-7 h-7 fill-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10.8 13.2h-3.6v3.6h3.6v-3.6zm0-7.2h-3.6v3.6h3.6V6zm7.2 7.2h-3.6v3.6h3.6v-3.6zm0-7.2h-3.6v3.6h3.6V6z" />
-              </svg>
-              <span className="text-xl font-bold">PLAID</span>
-            </div>
-            <p className="text-white/60 text-sm">Secure Account Linking</p>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="flex items-center gap-2 mb-3">
-              <div className="w-8 h-8 border-2 border-white rounded-full flex items-center justify-center">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                </svg>
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center gap-2 mb-3">
+                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/plaid.png" alt="Plaid" className="h-8" />
               </div>
-              <span className="text-xl font-bold">OMB Bank</span>
+              <p className="text-white/60 text-sm">Secure Account Linking</p>
             </div>
-            <p className="text-white/60 text-sm">FDIC Member Banking Partner</p>
-          </div>
 
-          <div className="flex flex-col items-center text-center">
-            <div className="flex items-center gap-2 mb-3">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-white transform rotate-90">
-                <polygon points="5 3 19 12 5 21 5 3" />
-              </svg>
-              <span className="text-xl font-bold">ALLOY</span>
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center gap-2 mb-3">
+                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/omb%20bank.png" alt="OMB Bank" className="h-8" />
+              </div>
+              <p className="text-white/60 text-sm">FDIC Member Banking Partner</p>
             </div>
-            <p className="text-white/60 text-sm">Identity Verification</p>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center gap-2 mb-3">
+                <img src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/alloy.png" alt="Alloy" className="h-8" />
+              </div>
+              <p className="text-white/60 text-sm">Identity Verification</p>
+            </div>
           </div>
-        </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 text-[10px] md:text-xs leading-5 max-w-4xl mx-auto text-center">
           <p style={{ color: 'white' }}>
