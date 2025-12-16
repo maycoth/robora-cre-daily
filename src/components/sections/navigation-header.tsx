@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ChevronDown, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 const ASSETS = {
   logo: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/29262e1d-6af1-47bb-ade3-3c354d057c65-roborafinancial-com/assets/svgs/RdWBCJhSiWMpYFL98WQguHlW28-1.svg"
@@ -33,32 +33,7 @@ export default function NavigationHeader() {
           />
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-8 xl:gap-10">
-          <Link 
-            href="#how-it-works" 
-            className="text-[16px] font-medium text-white transition-colors hover:text-[#FFC700]"
-          >
-            How it works
-          </Link>
-          <Link 
-            href="#who-we-are" 
-            className="text-[16px] font-medium text-white transition-colors hover:text-[#FFC700]"
-          >
-            Who we are
-          </Link>
-          <Link 
-            href="#pricing"
-            className="text-[16px] font-medium text-white transition-colors hover:text-[#FFC700]"
-          >
-            Pricing
-          </Link>
-          <div className="group relative flex cursor-pointer items-center gap-1">
-            <span className="text-[16px] font-medium text-white transition-colors hover:text-[#FFC700]">
-              Resources
-            </span>
-            <ChevronDown className="h-4 w-4 text-white transition-colors group-hover:text-[#FFC700]" />
-          </div>
-        </nav>
+
 
         <div className="hidden lg:flex items-center gap-6">
           <a 
