@@ -48,7 +48,7 @@ export default function PricingCTASection() {
                   <span className="text-sm font-medium">For Apartment Management Companies</span>
                 </div>
 
-                <h2 className="text-3xl font-bold leading-[1.2] md:text-5xl lg:text-[52px]">
+                <h2 className="text-3xl font-bold leading-[1.2] md:text-5xl lg:text-[52px]" style={{ color: 'white' }}>
                   Start Earning More on Every Dollar You Manage
                 </h2>
 

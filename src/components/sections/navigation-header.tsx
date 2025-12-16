@@ -23,7 +23,7 @@ export default function NavigationHeader() {
       scrolled ? "bg-[#003D7A]/90 backdrop-blur-md shadow-lg" : "bg-transparent"
     }`}>
       <div className="mx-auto flex h-full max-w-[1280px] items-center justify-between">
-        <Link href="/" className="relative block h-[40px] w-[142px] shrink-0 hover:opacity-90 transition-opacity">
+        <Link href="https://roborafinancial.com/" className="relative block h-[40px] w-[142px] shrink-0 hover:opacity-90 transition-opacity">
           <Image 
             src={ASSETS.logo} 
             alt="Robora Financial" 

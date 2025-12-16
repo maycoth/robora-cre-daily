@@ -108,18 +108,18 @@ export default function Footer() {
             <p>© Robora Financial, LLC. All rights reserved.</p>
           </div>
 
-          <div className="text-[11px] md:text-xs leading-relaxed text-gray-400 space-y-4 border-t border-white/10 pt-8">
-            <h4 className="font-bold text-white text-sm mb-2">Disclaimer</h4>
-            <p>
+          <div className="text-[11px] md:text-xs leading-relaxed space-y-4 border-t border-white/10 pt-8" style={{ color: 'white' }}>
+            <h4 className="font-bold text-sm mb-2" style={{ color: 'white' }}>Disclaimer</h4>
+            <p style={{ color: 'white' }}>
               Robora Financial, LLC (&quot;Robora&quot;) is a financial technology company, not a depository institution, bank, or credit union, and is not itself a FDIC insured company. Robora currently partners with OMB Bank, Member FDIC. By opening an OMB Bank account with Robora, your funds are held in a deposit account at OMB Bank.
             </p>
-            <p>
-              1. Annual percentage yield (APY) is <span className="text-white font-medium">3.11%</span> effective as of December 11, 2025 and may change at any time, before or after the account is opened, without rate limitation. Rates are determined by varying prevailing economic and business conditions, including the U.S. Federal Reserve interest paid on reserves.
+            <p style={{ color: 'white' }}>
+              1. Annual percentage yield (APY) is <span className="font-medium">3.11%</span> effective as of December 11, 2025 and may change at any time, before or after the account is opened, without rate limitation. Rates are determined by varying prevailing economic and business conditions, including the U.S. Federal Reserve interest paid on reserves.
             </p>
-            <p>
+            <p style={{ color: 'white' }}>
               2. Robora is not an FDIC-insured depository institution and FDIC insurance only applies to the failure of the bank where your account is maintained.
             </p>
-            <p>
+            <p style={{ color: 'white' }}>
               3. There is a free trial for the first 30 days. After which, there is (a) no monthly fee for aggregate average monthly account balances of $100,000 or greater and (b) a fee of $15 for such month the aggregate average monthly account balances are less than $100,000.
             </p>
           </div>
