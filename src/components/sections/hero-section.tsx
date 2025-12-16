@@ -50,12 +50,12 @@ export default function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 w-full sm:w-auto">
-          <Link
-            href="#contact"
-            className="group flex items-center justify-center w-full sm:w-auto px-8 py-4 text-base font-semibold text-[#003D7A] bg-[#FFC700] rounded-lg hover:bg-[#FFD740] hover:-translate-y-0.5 shadow-lg shadow-[#FFC700]/25 transition-all duration-300 min-w-[200px]"
-          >
-            Schedule a Demo
-          </Link>
+            <Link
+              href="https://roborafinancial.com/book-a-demo"
+              className="group flex items-center justify-center w-full sm:w-auto px-8 py-4 text-base font-semibold text-[#003D7A] bg-[#FFC700] rounded-lg hover:bg-[#FFD740] hover:-translate-y-0.5 shadow-lg shadow-[#FFC700]/25 transition-all duration-300 min-w-[200px]"
+            >
+              Schedule a Demo
+            </Link>
           <Link
             href="#how-it-works"
             className="group flex items-center justify-center w-full sm:w-auto px-8 py-4 text-base font-semibold text-white bg-transparent border-2 border-white/30 rounded-lg hover:bg-white/10 transition-all duration-300 min-w-[200px]"

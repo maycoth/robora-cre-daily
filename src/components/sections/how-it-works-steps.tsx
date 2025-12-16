@@ -71,11 +71,11 @@ export default function HowItWorksSteps() {
         <div className="mt-16 text-center">
           <div className="inline-flex flex-col sm:flex-row items-center gap-4">
             <Link
-              href="#contact"
-              className="px-8 py-4 text-base font-semibold text-[#003D7A] bg-[#FFC700] rounded-lg hover:bg-[#FFD740] transition-all duration-300 shadow-lg shadow-[#FFC700]/25"
-            >
-              Schedule a Demo
-            </Link>
+                href="https://roborafinancial.com/book-a-demo"
+                className="px-8 py-4 text-base font-semibold text-[#003D7A] bg-[#FFC700] rounded-lg hover:bg-[#FFD740] transition-all duration-300 shadow-lg shadow-[#FFC700]/25"
+              >
+                Schedule a Demo
+              </Link>
             <span className="text-[#6B7280]">or</span>
             <Link
               href="#contact"
