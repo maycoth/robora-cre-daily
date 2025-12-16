@@ -35,13 +35,13 @@ export default function NavigationHeader() {
 
 
 
-        <div className="hidden lg:flex items-center gap-6">
-          <a 
-            href="#" 
-            className="text-[16px] font-semibold text-white transition-colors hover:text-[#FFC700]"
-          >
-            Login
-          </a>
+          <div className="hidden lg:flex items-center gap-6">
+            <a 
+              href="https://app.roborafinancial.com/login" 
+              className="text-[16px] font-semibold text-white transition-colors hover:text-[#FFC700]"
+            >
+              Login
+            </a>
           <a
             href="#"
             className="inline-flex h-[48px] items-center justify-center rounded-[8px] bg-[#FFC700] px-6 text-[16px] font-semibold text-[#003D7A] shadow-md transition-all hover:bg-[#FFB300] hover:-translate-y-0.5"
