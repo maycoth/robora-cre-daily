@@ -35,7 +35,7 @@ export default function DashboardSection() {
             
             <div className="space-y-4">
               {[
-                'Real-time balances across all properties',
+                'Updated balances across all properties',
                 'Complete transaction history',
                 'Cash flow charts and visualizations',
                 'Property-level breakdowns',

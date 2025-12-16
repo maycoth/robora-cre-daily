@@ -110,20 +110,35 @@ export default function Footer() {
           </div>
 
           <div className="text-[11px] md:text-xs leading-relaxed space-y-4 border-t border-white/10 pt-8" style={{ color: 'white' }}>
-            <h4 className="font-bold text-sm mb-2" style={{ color: 'white' }}>Disclaimer</h4>
-            <p style={{ color: 'white' }}>
-              Robora Financial, LLC (&quot;Robora&quot;) is a financial technology company, not a depository institution, bank, or credit union, and is not itself a FDIC insured company. Robora currently partners with OMB Bank, Member FDIC. By opening an OMB Bank account with Robora, your funds are held in a deposit account at OMB Bank.
-            </p>
-            <p style={{ color: 'white' }}>
-              1. Annual percentage yield (APY) is <span className="font-medium">3.11%</span> effective as of December 11, 2025 and may change at any time, before or after the account is opened, without rate limitation. Rates are determined by varying prevailing economic and business conditions, including the U.S. Federal Reserve interest paid on reserves.
-            </p>
-            <p style={{ color: 'white' }}>
-              2. Robora is not an FDIC-insured depository institution and FDIC insurance only applies to the failure of the bank where your account is maintained.
-            </p>
-            <p style={{ color: 'white' }}>
-              3. There is a free trial for the first 30 days. After which, there is (a) no monthly fee for aggregate average monthly account balances of $100,000 or greater and (b) a fee of $15 for such month the aggregate average monthly account balances are less than $100,000.
-            </p>
-          </div>
+              <h4 className="font-bold text-sm mb-2" style={{ color: 'white' }}>Disclaimer</h4>
+              <p style={{ color: 'white' }}>
+                Robora Financial, LLC (&quot;Robora&quot;) is a financial technology company, not a depository institution, bank, or credit union, and is not itself a FDIC insured company. Robora currently partners with OMB Bank, Member FDIC. By opening an OMB Bank account with Robora, your funds are held in a deposit account at OMB Bank.
+              </p>
+              <p style={{ color: 'white' }}>
+                Annual percentage yield (APY) is
+              </p>
+              <p className="text-2xl font-bold" style={{ color: 'white' }}>
+                3.11%
+              </p>
+              <p style={{ color: 'white' }}>
+                effective as of December 11, 2025 and may change at any time, before or after the account is opened,
+              </p>
+              <p style={{ color: 'white' }}>
+                without rate limitation. Rates are determined by varying prevailing economic and business conditions, including the U.S. Federal Reserve interest paid on reserves.
+              </p>
+              <p style={{ color: 'white' }}>
+                2. Robora is not an FDIC-insured depository institution and FDIC insurance only applies to the failure of the bank where your account is maintained. By opening an account through Robora, Customers deposit their funds into either:
+              </p>
+              <p style={{ color: 'white' }}>
+                A deposit account at OMB Bank, Member FDIC, and held by OMB Bank, with such funds (combined with any other of such Customers funds at OMB) FDIC Insured up to the current standard maximum deposit insurance amount of $250,000 (&quot;SMDIA&quot;); or a deposit account at OMB Bank, which sweeps those funds into deposit accounts across a network of FDIC-insured banks for access to millions of FDIC-insurance in aggregate across the accounts. Under this program, the Customer&apos;s funds are placed into deposit accounts across a network of FDIC-insured banks for up to the current SMDIA of $250,000 per eligible depositor, per receiving bank, for each ownership capacity or category, including any other balances they may hold at that receiving bank directly or indirectly through other intermediaries, including broker-dealers. OMB Bank uses a third-party vendor and agent to help administer this deposit placement process. View the Institution List for a list of the banks and savings associations with which Robora and OMB Bank have a business relationship for the placement of deposits at receiving banks, and into which your deposits may be placed, subject to the Terms of Service and any opt-outs by OMB Bank or you. You should review the Institution list and opt-out of any particular institution to which you do not want us to allocate your funds. Certain conditions must be met to obtain such insurance and Terms and restrictions apply.
+              </p>
+              <p style={{ color: 'white' }}>
+                Your account with Robora and all services are subject to the Terms of Service, and there are no other applicable terms, representations or warranties, express or implied, except as expressly set forth in the Terms of Service. If you have any questions regarding your account, please contact support@roborafinancial.com
+              </p>
+              <p style={{ color: 'white' }}>
+                3. There is a free trial for the first 30 days. After which, there is (a) no monthly fee for aggregate average monthly account balances of $100,000 or greater and (b) a fee of $15 for such month the aggregate average monthly account balances are less than $100,000. &quot;Aggregate average monthly account balances&quot; is the daily average deposit balance of the Robora account or accounts for a single Robora login profile.
+              </p>
+            </div>
         </div>
       </div>
     </footer>
