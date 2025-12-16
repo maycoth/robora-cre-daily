@@ -33,7 +33,7 @@ const accountTypes = [
   {
     icon: Landmark,
     title: 'Reserve & Treasury Accounts',
-    description: 'Park capital reserves, CapEx funds, and insurance reserves',
+    description: 'Park CapEx funds, insurance reserves, and excess funds',
     features: [
       'Perfect for long-term reserves',
       'Same day ACH transfers for liquidity',
