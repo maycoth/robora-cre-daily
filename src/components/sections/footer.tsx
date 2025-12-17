@@ -119,7 +119,7 @@ export default function Footer() {
                 Robora Financial, LLC (&quot;Robora&quot;) is a financial technology company, not a depository institution, bank, or credit union, and is not itself a FDIC insured company. Robora currently partners with OMB Bank, Member FDIC. By opening an OMB Bank account with Robora, your funds are held in a deposit account at OMB Bank.
               </p>
 <p style={{ color: 'white' }}>
-                  Annual percentage yield (APY) is 3.11% effective as of December 11, 2025 and may change at any time, before or after the account is opened, without rate limitation. Rates are determined by varying prevailing economic and business conditions, including the U.S. Federal Reserve interest paid on reserves.
+                  1. Annual percentage yield (APY) is 3.11% effective as of December 11, 2025 and may change at any time, before or after the account is opened, without rate limitation. Rates are determined by varying prevailing economic and business conditions, including the U.S. Federal Reserve interest paid on reserves.
                 </p>
               <p style={{ color: 'white' }}>
                 2. Robora is not an FDIC-insured depository institution and FDIC insurance only applies to the failure of the bank where your account is maintained. By opening an account through Robora, Customers deposit their funds into either:
