@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Building2, Shield, TrendingUp } from "lucide-react";
+import { Building2 } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -45,26 +45,11 @@ export default function HeroSection() {
         </h1>
 
         <p className="mb-12 text-lg md:text-xl text-white/85 max-w-2xl mx-auto leading-relaxed">
-          Your security deposits, operating accounts, and reserves and excess funds could be earning{" "}
-          <span className="font-semibold text-[#FFCA40]">3.11% APY</span> instead of sitting dormant.
-        </p>
+            Your security deposits, operating accounts, and reserves and excess funds could be earning{" "}
+            <span className="font-semibold text-[#FFCA40]">3.11% APY</span> instead of sitting dormant.
+          </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto mb-12">
-            <div className="flex items-center gap-3 px-5 py-3 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
-              <Shield className="w-5 h-5 text-[#FFCA40] shrink-0" />
-            <span className="text-sm text-white/90">Tens of Millions in FDIC Coverage</span>
-          </div>
-            <div className="flex items-center gap-3 px-5 py-3 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
-              <TrendingUp className="w-5 h-5 text-[#FFCA40] shrink-0" />
-            <span className="text-sm text-white/90">3.11% APY on All Accounts</span>
-          </div>
-            <div className="flex items-center gap-3 px-5 py-3 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
-              <Building2 className="w-5 h-5 text-[#FFCA40] shrink-0" />
-              <span className="text-sm text-white/90">One Dashboard for All Properties</span>
-            </div>
-        </div>
-
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
             <Link
               href="https://roborafinancial.com/book-a-demo"
               className="group flex items-center justify-center w-full sm:w-auto px-8 py-4 text-base font-semibold text-[#013A6F] bg-[#FFCA40] rounded-lg hover:bg-[#EBAA00] hover:-translate-y-0.5 transition-all duration-300 min-w-[200px]"
