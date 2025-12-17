@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function DashboardSection() {
   return (
@@ -34,9 +35,11 @@ export default function DashboardSection() {
 
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-[#013A6F]/5 to-[#013A6F]/10 rounded-3xl blur-2xl"></div>
-            <img 
+            <Image 
               src="https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Robora%20Dash.png" 
               alt="Robora Dashboard" 
+              width={800}
+              height={600}
               className="relative w-full h-auto rounded-2xl shadow-2xl"
             />
           </div>
