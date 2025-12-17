@@ -14,9 +14,9 @@ export default function Home() {
       <NavigationHeader />
       <HeroSection />
       <CalculatorSection />
-      <AccountTypesSection />
       <DashboardSection />
       <SafetySecuritySection />
+      <AccountTypesSection />
       <HowItWorksSteps />
       <PricingCTASection />
       <Footer />

@@ -99,9 +99,7 @@ export default function AccountTypesSection() {
           ))}
           </div>
 
-          <p className="text-xs text-[#4B4F53]/70 mt-10 max-w-4xl mx-auto leading-relaxed">
-            *Your funds are held with FDIC-insured² depository institutions, not with Robora. Robora is not a bank. We are a financial technology company and your &quot;robo&quot; cash advisor empowering the ability to find safe, high-yielding returns. Banking services are provided by OMB Bank, member FDIC, and OMB Bank will place deposits through IntraFi&apos;s ICS service, which is the largest bank network of its kind, and subject to the ICS Deposit Placement Agreement. Certain conditions must be satisfied for &quot;pass-through&quot; FDIC deposit insurance coverage to apply.
-          </p>
+
         </div>
       </section>
     );
