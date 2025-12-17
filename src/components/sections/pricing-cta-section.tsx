@@ -13,7 +13,7 @@ const features = [
 
 export default function PricingCTASection() {
   return (
-    <section id="pricing" className="bg-white py-16 md:py-24">
+    <section id="pricing" className="bg-[#F4F5F5] py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-10 max-w-[1280px]">
           <div className="relative overflow-hidden rounded-[24px] md:rounded-[32px] bg-[#013A6F] text-white shadow-xl">
           <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">

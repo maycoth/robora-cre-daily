@@ -31,7 +31,7 @@ const steps = [
 
 export default function HowItWorksSteps() {
   return (
-    <section id="how-it-works" className="relative w-full bg-[#F4F5F5] py-20 md:py-28 overflow-hidden">
+    <section id="how-it-works" className="relative w-full bg-white py-20 md:py-28 overflow-hidden">
       <div className="container mx-auto px-4 md:px-10 max-w-[1280px]">
         <div className="text-center mb-16">
           <span className="text-[#013A6F] font-semibold text-sm tracking-wider uppercase mb-4 block">
