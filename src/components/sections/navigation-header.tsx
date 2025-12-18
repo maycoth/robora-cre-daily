@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { Menu } from 'lucide-react';
 
 const ASSETS = {
-  logo: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/29262e1d-6af1-47bb-ade3-3c354d057c65-roborafinancial-com/assets/svgs/RdWBCJhSiWMpYFL98WQguHlW28-1.svg"
+  logo: "https://b0lsqh365peprp3p.public.blob.vercel-storage.com/Logos/robora%20logo.svg"
 };
 
 export default function NavigationHeader() {
