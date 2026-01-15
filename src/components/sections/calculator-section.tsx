@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
+import Link from 'next/link';
 import { DollarSign, TrendingUp, AlertCircle } from 'lucide-react';
 
 export default function CalculatorSection() {
@@ -105,6 +106,15 @@ export default function CalculatorSection() {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link
+            href="#booking"
+            className="inline-flex px-8 py-4 text-base font-semibold text-[#013A6F] bg-[#FFCA40] rounded-lg hover:bg-[#EBAA00] transition-all duration-300 shadow-lg shadow-[#FFCA40]/25"
+          >
+            Schedule a Demo
+          </Link>
         </div>
       </div>
     </section>

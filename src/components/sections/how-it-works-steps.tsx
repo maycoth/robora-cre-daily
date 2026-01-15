@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import { UserPlus, Link2, Wallet, TrendingUp } from 'lucide-react';
 
 const steps = [
@@ -68,16 +67,6 @@ export default function HowItWorksSteps() {
           ))}
         </div>
 
-          <div className="mt-16 text-center">
-            <div className="inline-flex flex-col sm:flex-row items-center gap-4">
-              <Link
-                    href="https://roborafinancial.com/book-a-demo"
-                    className="px-8 py-4 text-base font-semibold text-[#013A6F] bg-[#FFCA40] rounded-lg hover:bg-[#EBAA00] transition-all duration-300 shadow-lg shadow-[#FFCA40]/25"
-                  >
-                  Schedule a Demo
-                </Link>
-            </div>
-          </div>
       </div>
     </section>
   );

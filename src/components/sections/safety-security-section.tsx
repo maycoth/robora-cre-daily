@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Shield, Building2, Lock } from 'lucide-react';
 
 export default function SafetySecuritySection() {
@@ -99,6 +100,15 @@ export default function SafetySecuritySection() {
                 </div>
                 <p className="text-white/60 text-sm">Identity Verification</p>
               </div>
+            </div>
+
+            <div className="mt-12 text-center">
+              <Link
+                href="#booking"
+                className="inline-flex px-8 py-4 text-base font-semibold text-[#013A6F] bg-[#FFCA40] rounded-lg hover:bg-[#EBAA00] transition-all duration-300 shadow-lg"
+              >
+                Schedule a Demo
+              </Link>
             </div>
 
             <p className="text-xs text-white/50 mt-10 max-w-4xl mx-auto leading-relaxed text-center">

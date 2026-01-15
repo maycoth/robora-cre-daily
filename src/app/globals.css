@@ -122,6 +122,10 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   :root {
     --background: var(--color-white);
     --foreground: var(--color-text-dark);

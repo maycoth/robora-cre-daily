@@ -101,7 +101,7 @@ export default function PricingCTASection() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                     <Link
-                        href="https://roborafinancial.com/book-a-demo"
+                        href="#booking"
                         className="group flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-[#013A6F] bg-[#FFCA40] rounded-lg hover:bg-[#EBAA00] transition-all duration-300 shadow-lg"
                       >
                       <Mail className="w-5 h-5" />

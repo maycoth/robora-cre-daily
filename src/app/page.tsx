@@ -6,6 +6,7 @@ import DashboardSection from "@/components/sections/dashboard-section";
 import SafetySecuritySection from "@/components/sections/safety-security-section";
 import HowItWorksSteps from "@/components/sections/how-it-works-steps";
 import PricingCTASection from "@/components/sections/pricing-cta-section";
+import BookingSection from "@/components/sections/booking-section";
 import Footer from "@/components/sections/footer";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <AccountTypesSection />
       <HowItWorksSteps />
       <PricingCTASection />
+      <BookingSection />
       <Footer />
     </main>
   );
