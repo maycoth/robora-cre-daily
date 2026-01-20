@@ -57,7 +57,7 @@ export default function CalculatorSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <label className="block text-sm font-semibold text-[#013A6F] mb-3">
-                  Total Security Deposits & Reserves
+                  Total Cash Holdings
                 </label>
                 <div className="relative mb-8">
                   <DollarSign className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#4B4F53]" />

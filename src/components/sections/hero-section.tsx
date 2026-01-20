@@ -39,9 +39,9 @@ export default function HeroSection() {
         </div>
 
         <h1 className="mb-6 font-bold leading-[1.08] tracking-tight text-white text-4xl md:text-5xl lg:text-[60px] max-w-5xl mx-auto">
-          Turn Idle Property Funds
+          Maximize Your Bank Account Cash
           <br />
-          <span className="text-[#FFCA40]">Into Earning Assets</span>
+          <span className="text-[#FFCA40]">With Higher Deposit Yields</span>
         </h1>
 
         <p className="mb-12 text-lg md:text-xl text-white/85 max-w-2xl mx-auto leading-relaxed">
