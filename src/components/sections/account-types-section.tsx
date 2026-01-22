@@ -7,7 +7,7 @@ const accountTypes = [
   {
     icon: ArrowRightLeft,
     title: 'Operating Account Optimization',
-    description: 'Sweep excess cash from your operating accounts automatically',
+    description: 'Sweep excess cash from your operating accounts automatically or manually',
     features: [
       'Set up automated or manual sweeps',
       'Keep your existing bank relationships',
@@ -32,8 +32,8 @@ const accountTypes = [
   },
   {
     icon: Landmark,
-    title: 'Treasury Consolidation',
-    description: 'Centralize excess cash across properties in one place',
+    title: 'Treasury Management',
+    description: 'Manage treasury accounts for multiple properties in one place.',
     features: [
       'Single dashboard for all funds',
       'Tens of millions in FDIC coverage*',
@@ -54,7 +54,7 @@ export default function AccountTypesSection() {
             Flexible Use Cases
           </span>
           <h2 className="text-[#013A6F] text-3xl md:text-[44px] leading-[1.2] font-bold max-w-3xl mx-auto mb-4">
-            One High-Yield Account, Three Ways to Use It
+            One Platform, Three Ways to Use It
           </h2>
           <p className="text-[#4B4F53] text-lg max-w-2xl mx-auto">
             Open a Robora high-yield savings account and connect it to your existing bank accounts. Use it for operating excess, reserves, or treasury—your choice.
