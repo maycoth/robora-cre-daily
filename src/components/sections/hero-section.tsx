@@ -39,7 +39,7 @@ export default function HeroSection() {
         </div>
 
         <h1 className="mb-6 font-bold leading-[1.08] tracking-tight text-white text-4xl md:text-5xl lg:text-[60px] max-w-5xl mx-auto">
-          Maximize Your Bank Account Cash
+          Maximize Your Bank Accounts
           <br />
           <span className="text-[#FFCA40]">With Higher Deposit Yields</span>
         </h1>
