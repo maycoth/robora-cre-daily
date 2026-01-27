@@ -39,7 +39,7 @@ The home page (`src/app/page.tsx`) is a single-page marketing site composed of s
 
 ### UI Components
 
-Uses shadcn/ui (New York style) built on Radix UI primitives. Configuration in `components.json`.
+Uses shadcn/ui (New York style) built on Radix UI primitives. Icons from Lucide React. Configuration in `components.json`.
 
 ```bash
 npx shadcn@latest add <component>  # Add new shadcn/ui components
@@ -48,16 +48,18 @@ npx shadcn@latest add <component>  # Add new shadcn/ui components
 ### Styling
 
 - Tailwind CSS v4 with PostCSS plugin
+- Framer Motion for animations
 - Brand colors defined as CSS variables in `globals.css`:
   - Primary Navy: #013A6F
   - Primary Navy Dark: #001C35
   - Accent Yellow: #FFCA40
   - Light Gray Background: #F4F5F5
+- Container: max-width 1280px with responsive padding (40px desktop, 48px tablet, 24px mobile)
 - Mobile breakpoint: 768px (see `hooks/use-mobile.ts`)
+- Never use em dashes
 
 ### External Integrations
 
-- **Orchids:** Visual editing CMS integration (configured in next.config.ts)
 - **Vercel:** Deployment platform
 - Images hosted on Supabase storage CDN
 
