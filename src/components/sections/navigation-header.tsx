@@ -11,9 +11,13 @@ const ASSETS = {
 
 export default function NavigationHeader() {
   const [scrolled, setScrolled] = useState(false);
+  const [showCta, setShowCta] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+      setShowCta(window.scrollY > window.innerHeight * 0.7);
+    };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -37,15 +41,11 @@ export default function NavigationHeader() {
 
 
           <div className="hidden lg:flex items-center gap-6">
-              <a 
-                href="https://app.roborafinancial.com/login" 
-                className="text-[16px] font-semibold text-white transition-colors hover:text-[#FFCA40]"
-              >
-              Login
-            </a>
             <Link
               href="#booking"
-              className="inline-flex h-[48px] items-center justify-center rounded-[8px] bg-[#FFCA40] px-6 text-[16px] font-semibold text-[#013A6F] shadow-md transition-all hover:bg-[#EBAA00] hover:-translate-y-0.5"
+              className={`inline-flex h-[48px] items-center justify-center rounded-[8px] bg-[#FFCA40] px-6 text-[16px] font-semibold text-[#013A6F] shadow-md transition-all hover:bg-[#EBAA00] hover:-translate-y-0.5 ${
+                showCta ? 'opacity-100' : 'opacity-0 pointer-events-none'
+              }`}
             >
               Get Started
             </Link>

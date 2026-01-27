@@ -25,7 +25,7 @@ export default function Footer() {
                 Want to give your excess cash a boost?
               </h2>
                   <Link
-                    href="https://app.roborafinancial.com/signup" 
+                    href="#booking"
                     className="inline-flex items-center justify-center bg-[#FFCA40] text-[#013A6F] font-semibold text-base px-6 py-3 rounded-lg shadow-md hover:bg-[#EBAA00] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
                   >
                   Get Started
