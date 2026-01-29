@@ -8,7 +8,6 @@ import { Building2 } from "lucide-react";
 export default function HeroSection() {
   return (
     <section
-      id="booking"
       className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#013A6F] via-[#013A6F] to-[#001C35] text-white"
     >
       <div className="absolute inset-0 overflow-hidden">
